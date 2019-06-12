@@ -1,0 +1,5 @@
+total 12
+drwxr-xr-x 2 ankit ankit 4096 Jun 11 23:56 coding
+-rw-r--r-- 1 ankit ankit  454 Jun  3 13:27 helloworld.cpp
+-rw-r--r-- 1 ankit ankit 1073 May 29 12:55 LICENSE
+-rw-r--r-- 1 ankit ankit    0 Jun 12 11:56 tempfile.txt
