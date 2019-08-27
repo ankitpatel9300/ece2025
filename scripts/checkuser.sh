@@ -10,5 +10,7 @@ if [ USER=root ]
 then
  echo " must not be root"
 
+ exit 1
 fi
+
 

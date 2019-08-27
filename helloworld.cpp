@@ -1,27 +1,14 @@
-/************* Welcome to C++ learning***********/
+#include<iostream>
 
-
-#include <iostream>
-using namespace std;
-void line(), message();
-// Prototypes
 int main()
 {
-cout << "Hello! The program starts in main()."
-<< endl;
-line();
-message();
-line();
-cout << "At the end of main()." << endl;
+
+std::cout<< " Hello Beautiful World"<<std::endl;
+std::cout<< " ----------------------" << std::endl;
+std::cout<< " Lets make this world more beautiful" << std::endl;
+
 return 0;
+
 }
-void line()
-// To draw a line.
-{
-cout << "--------------------------------" << endl;
-}
-void message()
-// To display a message.
-{
-cout << "In function message()." << endl;
-}
+
+
