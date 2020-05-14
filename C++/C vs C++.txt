@@ -1,0 +1,10 @@
+
+
+ C-Language                                                |                 C++
+                                                           |
+In C, static and global variables are initialized by the   |  
+compiler itself.                                           |
+Therefore, they must be initialized with a constant value. |
+                                                           |
+if a function is called before its declaration, the        |
+compiler assumes return type of the function as int.       |
