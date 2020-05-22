@@ -8,6 +8,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+int fAdd((int *a ,int *b) ;    //Function prototype
+
+int main()
+{
+	int a=3,b=2;
+	printf("Sum is %d", fAdd(&a,&b));
+	return 0;
+
+}
+	 
 int fAdd(int *a , int *b)
 {
 	int x,y;
@@ -17,12 +27,4 @@ int fAdd(int *a , int *b)
 	sum= x+y;
 
 	return sum;
-}
-
-int main()
-{
-	int a=3,b=2;
-	printf("Sum is %d", fAdd(&a,&b));
-	return 0;
-
 }
