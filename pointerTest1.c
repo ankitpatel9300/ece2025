@@ -8,7 +8,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int fAdd((int *a ,int *b) ;    //Function prototype
+int fAdd(int *a ,int *b) ;    //Function prototype
 
 int main()
 {
@@ -20,11 +20,11 @@ int main()
 	 
 int fAdd(int *a , int *b)
 {
-	int x,y;
+	int x,y;   //variable declaration
 	x=*a;
 	y=*b;
 	int sum =0;
 	sum= x+y;
 
-	return sum;
+	return sum;    //return the result to calling function
 }
